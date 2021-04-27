@@ -1,0 +1,6 @@
+"accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibXluYW1lIiwiZW1haWwiOiJuYW1lQGVtYWlsLmNvbSIsImlzQWRtaW4iOmZhbHNlLCJpYXQiOjE2MTk1NTA3MDEsImV4cCI6MTYxOTU1MDcxMX0.3iyypmZdTUeruEN51Fi2RUYad3gJzErjTiWhmuXwbuk",
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibXluYW1lIiwiZW1haWwiOiJuYW1lQGVtYWlsLmNvbSIsImlzQWRtaW4iOmZhbHNlLCJpYXQiOjE2MTk1NTA3MDEsImV4cCI6MTYyMzQzODcwMX0.XhgEKWINEABE4Yf2hl-uunnRlIHoUi8reQdkvkOHup4",
+  "name": "myname",
+  "email": "name@email.com",
+  "isAdmin": false
+}

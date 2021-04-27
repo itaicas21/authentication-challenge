@@ -1,0 +1,45 @@
+### Create User Request
+POST http://localhost:4000/users/register
+Content-Type: application/json
+
+{
+    "email":"name@email.com",
+    "name":"myname",
+    "password":"password"
+}
+### Basic GET
+GET http://localhost:4000/asdasdasd
+Content-Type: application/json
+### login existing user
+POST http://localhost:4000/users/login
+Content-Type: application/json
+
+{
+    "email":"name@email.com",
+    "name":"myname",
+    "password":"password"
+}
+### validate token
+POST http://localhost:4000/users/tokenValidate
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibXluYW1lIiwiZW1haWwiOiJuYW1lQGVtYWlsLmNvbSIsImlzQWRtaW4iOmZhbHNlLCJpYXQiOjE2MTk1NTA3MDEsImV4cCI6MTYxOTU1MDcxMX0.3iyypmZdTUeruEN51Fi2RUYad3gJzErjTiWhmuXwbuk
+
+### info
+GET  http://localhost:4000/api/v1/information
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibXluYW1lIiwiZW1haWwiOiJuYW1lQGVtYWlsLmNvbSIsImlzQWRtaW4iOmZhbHNlLCJpYXQiOjE2MTk1NTI2NzMsImV4cCI6MTYxOTU1MjY4M30.laTr8cEHwVbWULTSlPDtzfFoSnD7DBodkmgGfD8vkPY
+
+### refresh token
+POST http://localhost:4000/users/token
+Content-Type: application/json
+
+{
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibXluYW1lIiwiZW1haWwiOiJuYW1lQGVtYWlsLmNvbSIsImlzQWRtaW4iOmZhbHNlLCJpYXQiOjE2MTk1NTA3MDEsImV4cCI6MTYyMzQzODcwMX0.XhgEKWINEABE4Yf2hl-uunnRlIHoUi8reQdkvkOHup4"
+}
+### refresh token
+POST http://localhost:4000/users/logout
+Content-Type: application/json
+
+{
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibXluYW1lIiwiZW1haWwiOiJuYW1lQGVtYWlsLmNvbSIsImlzQWRtaW4iOmZhbHNlLCJpYXQiOjE2MTk1NTE3MzEsImV4cCI6MTYyMzQzOTczMX0.INvttB2lwOj0MTYnNgA78eM99uEggcMf5W9F8iXxBHM"
+}
